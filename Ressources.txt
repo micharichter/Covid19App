@@ -1,0 +1,3 @@
+Adding Serilog : 
+https://www.techrepository.in/blog/posts/writing-logs-to-different-files-serilog-asp-net-core
+

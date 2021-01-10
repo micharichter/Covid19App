@@ -16,6 +16,11 @@ namespace WebServices.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            _logger.LogInformation("Writing to log file with INFORMATION severity level.");
+            _logger.LogDebug("Writing to log file with DEBUG severity level."); 
+            _logger.LogWarning("Writing to log file with WARNING severity level.");
+            _logger.LogError("Writing to log file with ERROR severity level.");
+            _logger.LogCritical("Writing to log file with CRITICAL severity level.");
         }
 
         public IActionResult Index()
